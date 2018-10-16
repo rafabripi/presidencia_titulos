@@ -1,0 +1,1025 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Titulo de Perpetuidad'
+  ClientHeight = 431
+  ClientWidth = 546
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnActivate = FormActivate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 8
+    Top = 8
+    Width = 523
+    Height = 385
+    TabOrder = 0
+    object Button1: TButton
+      Left = 388
+      Top = 352
+      Width = 125
+      Height = 25
+      Caption = 'Cerrar'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 388
+      Top = 321
+      Width = 125
+      Height = 25
+      Caption = 'Guardar Titulo'
+      TabOrder = 1
+      OnClick = Button2Click
+    end
+    object Panel3: TPanel
+      Left = 8
+      Top = 7
+      Width = 505
+      Height = 64
+      BorderStyle = bsSingle
+      TabOrder = 2
+      object Label2: TLabel
+        Left = 12
+        Top = 10
+        Width = 98
+        Height = 13
+        Caption = 'Nombre del Fallecido'
+      end
+      object Label3: TLabel
+        Left = 13
+        Top = 34
+        Width = 201
+        Height = 13
+        Caption = 'Nombre de la perosna que solicita el Titulo'
+      end
+      object Edit2: TEdit
+        Left = 123
+        Top = 7
+        Width = 356
+        Height = 21
+        CharCase = ecUpperCase
+        TabOrder = 0
+      end
+      object Edit3: TEdit
+        Left = 220
+        Top = 31
+        Width = 259
+        Height = 21
+        CharCase = ecUpperCase
+        TabOrder = 1
+      end
+    end
+    object Panel4: TPanel
+      Left = 8
+      Top = 73
+      Width = 505
+      Height = 143
+      BorderStyle = bsSingle
+      TabOrder = 3
+      object Label8: TLabel
+        Left = 12
+        Top = 67
+        Width = 87
+        Height = 13
+        Caption = 'Cantidad a Pagar:'
+      end
+      object Label16: TLabel
+        Left = 12
+        Top = 12
+        Width = 129
+        Height = 13
+        Caption = 'Panteon en que se enterro'
+      end
+      object Label11: TLabel
+        Left = 12
+        Top = 92
+        Width = 127
+        Height = 13
+        Caption = 'Fecha del Recibo de Pago:'
+      end
+      object Label12: TLabel
+        Left = 12
+        Top = 117
+        Width = 148
+        Height = 13
+        Caption = 'Fecha de expedicion del Titulo:'
+      end
+      object Label10: TLabel
+        Left = 12
+        Top = 37
+        Width = 62
+        Height = 13
+        Caption = '# de Recibo:'
+      end
+      object Edit6: TEdit
+        Left = 105
+        Top = 60
+        Width = 96
+        Height = 24
+        Alignment = taCenter
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 0
+        OnExit = Edit6Exit
+      end
+      object ComboBox2: TComboBox
+        Left = 147
+        Top = 9
+        Width = 320
+        Height = 21
+        TabOrder = 1
+        Text = 'PANTEON MUNICIPAL (MELCHOR OCAMPO)'
+        Items.Strings = (
+          'PANTEON MUNICIPAL (MELCHOR OCAMPO)'
+          'PANTEON MUNICIPAL (TICUITACO)'
+          'PANTEON MUNICIPAL (JARDINES DE OTONO) CD. DEL SOL'
+          'PANTEON MUNICIPAL (EL ALGODONAL)')
+      end
+      object Edit9: TEdit
+        Left = 207
+        Top = 60
+        Width = 285
+        Height = 24
+        BorderStyle = bsNone
+        Color = clMenu
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clNavy
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 2
+      end
+      object DateTimePicker1: TDateTimePicker
+        Left = 166
+        Top = 89
+        Width = 108
+        Height = 21
+        Date = 42373.496984166670000000
+        Time = 42373.496984166670000000
+        TabOrder = 3
+      end
+      object DateTimePicker2: TDateTimePicker
+        Left = 165
+        Top = 113
+        Width = 108
+        Height = 21
+        Date = 42373.496984166670000000
+        Time = 42373.496984166670000000
+        TabOrder = 4
+      end
+      object Edit10: TEdit
+        Left = 105
+        Top = 34
+        Width = 96
+        Height = 21
+        TabOrder = 5
+      end
+    end
+    object Panel2: TPanel
+      Left = 8
+      Top = 217
+      Width = 505
+      Height = 69
+      BorderStyle = bsSingle
+      TabOrder = 4
+      object Label1: TLabel
+        Left = 10
+        Top = 13
+        Width = 71
+        Height = 13
+        Caption = '# de Sepulcro:'
+      end
+      object Label6: TLabel
+        Left = 261
+        Top = 16
+        Width = 24
+        Height = 13
+        Caption = 'Tipo:'
+      end
+      object Label7: TLabel
+        Left = 261
+        Top = 41
+        Width = 40
+        Height = 13
+        Caption = 'Seccion:'
+      end
+      object Label4: TLabel
+        Left = 12
+        Top = 41
+        Width = 46
+        Height = 13
+        Caption = '# de Fila:'
+      end
+      object ComboBox3: TComboBox
+        Left = 83
+        Top = 11
+        Width = 166
+        Height = 21
+        TabOrder = 0
+        Text = '1 (UNO)'
+        Items.Strings = (
+          '1 (UNO)'
+          '2 (DOS)'
+          '3 (TRES)'
+          '4 (CUATRO)'
+          '5 (CINCO)'
+          '6 (SEIS)'
+          '7 (SIETE)'
+          '8 (OCHO)'
+          '9 (NUEVE)'
+          '10 (DIEZ)'
+          '11 (ONCE)'
+          '12 (DOCE)'
+          '13 (TRECE)'
+          '14 (CATORCE)'
+          '15 (QUINCE)'
+          '16 (DIEZ Y SIES)'
+          '17 (DIEZ Y SIETE)'
+          '18 (DIEZ Y OCHO)'
+          '19 (DIEZ Y NUEVE)'
+          '20 (VEINTE)'
+          '21 (VEINTIUNO)'
+          '22 (VEINTIDOS)'
+          '23 (VEINTITRES)'
+          '24 (VEINTICUATRO)'
+          '25 (VEINTICINCO)'
+          '26 (VEINTISEIS)'
+          '27 (VEINTISIETE)'
+          '28 (VEINTIOCHO)'
+          '29 (VEINTINUEVE)'
+          '30 (TREINTA)'
+          '31 (TREINTA Y UNO)'
+          '32 (TREINTA Y DOS)'
+          '33 (TREINTA Y TRES)'
+          '34 (TREINTA Y CUATRO)'
+          '35 (TREINTA Y CINCO)'
+          '36 (TREINTA Y SEIS)'
+          '37 (TREINTA Y SISTE)'
+          '38 (TREINTA Y OCHO)'
+          '39 (TREINTA Y NUEVE)'
+          '40 (CUARENTA)'
+          '41 (CUARENTA Y UNO)'
+          '42 (CUARENTA Y DOS)'
+          '43 (CUARENTA Y TRES)'
+          '44 (CUARENTA Y CUATRO)'
+          '45 (CUARENTA Y CINCO)'
+          '46 (CUARENTA Y SEIS)'
+          '47 (CUARENTA Y SIETE)'
+          '48 (CUARENTA Y OCHO)'
+          '49 CUARENTA Y NUEVE)'
+          '50 (CINCUENTA)'
+          '51 (CINCUENTA Y UNO)'
+          '52 (CINCUENTA Y DOS)'
+          '53 (CINCUENTA Y TRES)'
+          '54 (CINCUENTA Y CUATRO)'
+          '55 (CINCUENTA Y CINCO)'
+          '56 (CINCUENTA Y SEIS)'
+          '57 (CINCUENTA Y SIETE)'
+          '58 (CINCUENTA Y OCHO)'
+          '59 (CINCUENTA Y NUEVE)'
+          '60 (SESENTA)'
+          '61 (SESENTA Y UNO)'
+          '62 (SESENTA Y DOS)'
+          '63 (SESENTA Y TRES)'
+          '64 (SESENTA Y CUATRO)'
+          '65 (SESSENTA Y CINCO)'
+          '66 (SESENTA Y SEIS)'
+          '67 (SESENTA Y SIETE)'
+          '68 (SESENTA Y OCHO)'
+          '69 (SESENTA Y NUEVE)'
+          '70 (SETENTA)'
+          '71 (SETENTA Y UNO)'
+          '72 (SETENTA Y DOS)'
+          '73 (SETENTA Y TRES)'
+          '74 (SETENTA Y CUATRO)'
+          '75 (SETENTA Y CINCO)'
+          '76 (SETENTA Y SEIS)'
+          '77 (SETENTA Y SIETE)'
+          '78 (SETENTA Y OCHO)'
+          '79 (SETENTA Y NUEVE)'
+          '80 (OCHENTA)'
+          '81 (OCHENTA Y UNO)'
+          '82 (OCHENTA Y DOS)'
+          '83 (OCHENTA Y TRES)'
+          '84 (OCHENTA Y CUATRO)'
+          '85 (OCHENTA Y CINCO)'
+          '86 (OCHENTA Y SEIS)'
+          '87 (OCHENTA Y SISTE)'
+          '88 (OCHENTA Y OCHO)'
+          '89 (OCHENTA Y NUEVE)'
+          '90 (NOVENTA)'
+          '91 (NOVENTA Y UNO)'
+          '92 (NOVENTA Y DOS)'
+          '93 (NOVENTA Y TRES)'
+          '94 (NOVENTA Y CUATRO)'
+          '95 (NOVENTA Y CINCO)'
+          '96 (NOVENTA Y SEIS)'
+          '97 (NOVENTA Y SIETE)'
+          '98 (NOVENTA Y OCHO)'
+          '99 (NOVENTA Y NUEVE)'
+          '100 (CIEN)'
+          '101 (CIENTO UNO)'
+          '102 (CIENTO DOS)'
+          '103 (CIENTO TRES)'
+          '104 (CIENTO CUATRO)'
+          '105 (CIENTO CINCO)'
+          '106 (CIENTO SEIS)'
+          '107 (CIENTO SIETE)'
+          '108 (CIENTO OCHO)'
+          '109 (CIENTO NUEVE)'
+          '110 (CIENTO DIEZ)'
+          '111 (CIENTO ONCE)'
+          '112 (CIENTO DOCE)'
+          '113 (CIENTO TRECE)'
+          '114 (CIENTO CATORCE)'
+          '115 (CIENTO QUINCE)'
+          '116 (CIENTO DIEZ Y SEIS)'
+          '117 (CIENTO DIEZ Y SIETE)'
+          '118 (CIENTO DIEZ Y OCHO)'
+          '119 (CIENTO DIEZ Y NUEVE)'
+          '120 (CIENTO VEINTE)'
+          '121 (CIENTO VEINTE Y UNO)'
+          '122 (CIENTO VEINE Y DOS)'
+          '123 (CIENTO VEINTE Y TRES)'
+          '124 (CIENTO VEINTE Y CUATRO)'
+          '125 (CIENTO VEINTE Y CINCO)'
+          '126 (CIENTO VEINTE Y SEIS)'
+          '127 (CIENTO VEITE Y SIETE)'
+          '128 (CIENTO VEINTE Y OCHO)'
+          '129 (CIENTO VEINTE Y NUEVE)'
+          '130 (CIENTO TREINTE)'
+          '131 (CIENTO TREITA Y UNO)'
+          '132 (CIENTO TREINTA Y DOS)'
+          '133 (CIENTO TREINTA Y TRES)'
+          '134 (CIENTO TREINTA Y CUATRO)'
+          '135 (CIENTO TREINTA Y CINCO)'
+          '136 (CIENTO TREINTA Y SEIS)'
+          '137 (CIENTO TREINTA Y SIETE)'
+          '138 (CIENTO TREINTA Y OCHO)'
+          '139 (CIENTO TREINTA Y NUEVE)'
+          '140 (CIENTO CUARENTA)'
+          '141 (CIENTO CUARENTA Y UNO)'
+          '142 (CIENTO CUARENTA Y DOS)'
+          '143 (CIENTO CUARENTA Y TRES)'
+          '144 (CIENTO CUARENTA Y CUATRO)'
+          '145 (CIENTO CUARENTA Y CINCO)'
+          '146 (CIENTO CUARENTA Y SEIS)'
+          '147 (CIENTO CUARENTA Y SIETE)'
+          '148 (CIENTO CUARENTA Y OCHO)'
+          '149 (CIENTO CUARENTA Y NUEVE)'
+          '150 (CIENTO CINCUENTA)')
+      end
+      object ComboBox1: TComboBox
+        Left = 305
+        Top = 10
+        Width = 184
+        Height = 21
+        TabOrder = 1
+        Text = 'FOSA'
+        Items.Strings = (
+          'FOSA'
+          'CRIPTA FAMILIAR'
+          'GAVETA'
+          'GAVETA PARA CUERPO COMPLETO')
+      end
+      object ComboBox6: TComboBox
+        Left = 305
+        Top = 35
+        Width = 184
+        Height = 21
+        TabOrder = 2
+        Text = '1 (UNO)'
+        Items.Strings = (
+          '1 (UNO)'
+          '2 (DOS)'
+          '3 (TRES)'
+          '4 (CUATRO)'
+          '5 (CINCO)'
+          '6 (SEIS)'
+          '7 (SIETE)'
+          '8 (OCHO)'
+          '9 (NUEVE)'
+          '10 (DIEZ)'
+          '11 (ONCE)'
+          '12 (DOCE)'
+          '13 (TRECE)'
+          '14 (CATORCE)'
+          '15 (QUINCE)'
+          '16 (DIEZ Y SIES)'
+          '17 (DIEZ Y SIETE)'
+          '18 (DIEZ Y OCHO)'
+          '19 (DIEZ Y NUEVE)'
+          '20 (VEINTE)'
+          '21 (VEINTIUNO)'
+          '22 (VEINTIDOS)'
+          '23 (VEINTITRES)'
+          '24 (VEINTICUATRO)'
+          '25 (VEINTICINCO)'
+          '26 (VEINTISEIS)'
+          '27 (VEINTISIETE)'
+          '28 (VEINTIOCHO)'
+          '29 (VEINTINUEVE)'
+          '30 (TREINTA)'
+          '31 (TREINTA Y UNO)'
+          '32 (TREINTA Y DOS)'
+          '33 (TREINTA Y TRES)'
+          '34 (TREINTA Y CUATRO)'
+          '35 (TREINTA Y CINCO)'
+          '36 (TREINTA Y SEIS)'
+          '37 (TREINTA Y SISTE)'
+          '38 (TREINTA Y OCHO)'
+          '39 (TREINTA Y NUEVE)'
+          '40 (CUARENTA)'
+          '41 (CUARENTA Y UNO)'
+          '42 (CUARENTA Y DOS)'
+          '43 (CUARENTA Y TRES)'
+          '44 (CUARENTA Y CUATRO)'
+          '45 (CUARENTA Y CINCO)'
+          '46 (CUARENTA Y SEIS)'
+          '47 (CUARENTA Y SIETE)'
+          '48 (CUARENTA Y OCHO)'
+          '49 CUARENTA Y NUEVE)'
+          '50 (CINCUENTA)'
+          '51 (CINCUENTA Y UNO)'
+          '52 (CINCUENTA Y DOS)'
+          '53 (CINCUENTA Y TRES)'
+          '54 (CINCUENTA Y CUATRO)'
+          '55 (CINCUENTA Y CINCO)'
+          '56 (CINCUENTA Y SEIS)'
+          '57 (CINCUENTA Y SIETE)'
+          '58 (CINCUENTA Y OCHO)'
+          '59 (CINCUENTA Y NUEVE)'
+          '60 (SESENTA)'
+          '61 (SESENTA Y UNO)'
+          '62 (SESENTA Y DOS)'
+          '63 (SESENTA Y TRES)'
+          '64 (SESENTA Y CUATRO)'
+          '65 (SESSENTA Y CINCO)'
+          '66 (SESENTA Y SEIS)'
+          '67 (SESENTA Y SIETE)'
+          '68 (SESENTA Y OCHO)'
+          '69 (SESENTA Y NUEVE)'
+          '70 (SETENTA)'
+          '71 (SETENTA Y UNO)'
+          '72 (SETENTA Y DOS)'
+          '73 (SETENTA Y TRES)'
+          '74 (SETENTA Y CUATRO)'
+          '75 (SETENTA Y CINCO)'
+          '76 (SETENTA Y SEIS)'
+          '77 (SETENTA Y SIETE)'
+          '78 (SETENTA Y OCHO)'
+          '79 (SETENTA Y NUEVE)'
+          '80 (OCHENTA)'
+          '81 (OCHENTA Y UNO)'
+          '82 (OCHENTA Y DOS)'
+          '83 (OCHENTA Y TRES)'
+          '84 (OCHENTA Y CUATRO)'
+          '85 (OCHENTA Y CINCO)'
+          '86 (OCHENTA Y SEIS)'
+          '87 (OCHENTA Y SISTE)'
+          '88 (OCHENTA Y OCHO)'
+          '89 (OCHENTA Y NUEVE)'
+          '90 (NOVENTA)'
+          '91 (NOVENTA Y UNO)'
+          '92 (NOVENTA Y DOS)'
+          '93 (NOVENTA Y TRES)'
+          '94 (NOVENTA Y CUATRO)'
+          '95 (NOVENTA Y CINCO)'
+          '96 (NOVENTA Y SEIS)'
+          '97 (NOVENTA Y SIETE)'
+          '98 (NOVENTA Y OCHO)'
+          '99 (NOVENTA Y NUEVE)'
+          '100 (CIEN)'
+          '101 (CIENTO UNO)'
+          '102 (CIENTO DOS)'
+          '103 (CIENTO TRES)'
+          '104 (CIENTO CUATRO)'
+          '105 (CIENTO CINCO)'
+          '106 (CIENTO SEIS)'
+          '107 (CIENTO SIETE)'
+          '108 (CIENTO OCHO)'
+          '109 (CIENTO NUEVE)'
+          '110 (CIENTO DIEZ)'
+          '111 (CIENTO ONCE)'
+          '112 (CIENTO DOCE)'
+          '113 (CIENTO TRECE)'
+          '114 (CIENTO CATORCE)'
+          '115 (CIENTO QUINCE)'
+          '116 (CIENTO DIEZ Y SEIS)'
+          '117 (CIENTO DIEZ Y SIETE)'
+          '118 (CIENTO DIEZ Y OCHO)'
+          '119 (CIENTO DIEZ Y NUEVE)'
+          '120 (CIENTO VEINTE)'
+          '121 (CIENTO VEINTE Y UNO)'
+          '122 (CIENTO VEINE Y DOS)'
+          '123 (CIENTO VEINTE Y TRES)'
+          '124 (CIENTO VEINTE Y CUATRO)'
+          '125 (CIENTO VEINTE Y CINCO)'
+          '126 (CIENTO VEINTE Y SEIS)'
+          '127 (CIENTO VEITE Y SIETE)'
+          '128 (CIENTO VEINTE Y OCHO)'
+          '129 (CIENTO VEINTE Y NUEVE)'
+          '130 (CIENTO TREINTE)'
+          '131 (CIENTO TREITA Y UNO)'
+          '132 (CIENTO TREINTA Y DOS)'
+          '133 (CIENTO TREINTA Y TRES)'
+          '134 (CIENTO TREINTA Y CUATRO)'
+          '135 (CIENTO TREINTA Y CINCO)'
+          '136 (CIENTO TREINTA Y SEIS)'
+          '137 (CIENTO TREINTA Y SIETE)'
+          '138 (CIENTO TREINTA Y OCHO)'
+          '139 (CIENTO TREINTA Y NUEVE)'
+          '140 (CIENTO CUARENTA)'
+          '141 (CIENTO CUARENTA Y UNO)'
+          '142 (CIENTO CUARENTA Y DOS)'
+          '143 (CIENTO CUARENTA Y TRES)'
+          '144 (CIENTO CUARENTA Y CUATRO)'
+          '145 (CIENTO CUARENTA Y CINCO)'
+          '146 (CIENTO CUARENTA Y SEIS)'
+          '147 (CIENTO CUARENTA Y SIETE)'
+          '148 (CIENTO CUARENTA Y OCHO)'
+          '149 (CIENTO CUARENTA Y NUEVE)'
+          '150 (CIENTO CINCUENTA)')
+      end
+      object ComboBox4: TComboBox
+        Left = 84
+        Top = 35
+        Width = 166
+        Height = 21
+        TabOrder = 3
+        Text = '1 (UNO)'
+        Items.Strings = (
+          '1 (UNO)'
+          '2 (DOS)'
+          '3 (TRES)'
+          '4 (CUATRO)'
+          '5 (CINCO)'
+          '6 (SEIS)'
+          '7 (SIETE)'
+          '8 (OCHO)'
+          '9 (NUEVE)'
+          '10 (DIEZ)'
+          '11 (ONCE)'
+          '12 (DOCE)'
+          '13 (TRECE)'
+          '14 (CATORCE)'
+          '15 (QUINCE)'
+          '16 (DIEZ Y SIES)'
+          '17 (DIEZ Y SIETE)'
+          '18 (DIEZ Y OCHO)'
+          '19 (DIEZ Y NUEVE)'
+          '20 (VEINTE)'
+          '21 (VEINTIUNO)'
+          '22 (VEINTIDOS)'
+          '23 (VEINTITRES)'
+          '24 (VEINTICUATRO)'
+          '25 (VEINTICINCO)'
+          '26 (VEINTISEIS)'
+          '27 (VEINTISIETE)'
+          '28 (VEINTIOCHO)'
+          '29 (VEINTINUEVE)'
+          '30 (TREINTA)'
+          '31 (TREINTA Y UNO)'
+          '32 (TREINTA Y DOS)'
+          '33 (TREINTA Y TRES)'
+          '34 (TREINTA Y CUATRO)'
+          '35 (TREINTA Y CINCO)'
+          '36 (TREINTA Y SEIS)'
+          '37 (TREINTA Y SISTE)'
+          '38 (TREINTA Y OCHO)'
+          '39 (TREINTA Y NUEVE)'
+          '40 (CUARENTA)'
+          '41 (CUARENTA Y UNO)'
+          '42 (CUARENTA Y DOS)'
+          '43 (CUARENTA Y TRES)'
+          '44 (CUARENTA Y CUATRO)'
+          '45 (CUARENTA Y CINCO)'
+          '46 (CUARENTA Y SEIS)'
+          '47 (CUARENTA Y SIETE)'
+          '48 (CUARENTA Y OCHO)'
+          '49 CUARENTA Y NUEVE)'
+          '50 (CINCUENTA)'
+          '51 (CINCUENTA Y UNO)'
+          '52 (CINCUENTA Y DOS)'
+          '53 (CINCUENTA Y TRES)'
+          '54 (CINCUENTA Y CUATRO)'
+          '55 (CINCUENTA Y CINCO)'
+          '56 (CINCUENTA Y SEIS)'
+          '57 (CINCUENTA Y SIETE)'
+          '58 (CINCUENTA Y OCHO)'
+          '59 (CINCUENTA Y NUEVE)'
+          '60 (SESENTA)'
+          '61 (SESENTA Y UNO)'
+          '62 (SESENTA Y DOS)'
+          '63 (SESENTA Y TRES)'
+          '64 (SESENTA Y CUATRO)'
+          '65 (SESSENTA Y CINCO)'
+          '66 (SESENTA Y SEIS)'
+          '67 (SESENTA Y SIETE)'
+          '68 (SESENTA Y OCHO)'
+          '69 (SESENTA Y NUEVE)'
+          '70 (SETENTA)'
+          '71 (SETENTA Y UNO)'
+          '72 (SETENTA Y DOS)'
+          '73 (SETENTA Y TRES)'
+          '74 (SETENTA Y CUATRO)'
+          '75 (SETENTA Y CINCO)'
+          '76 (SETENTA Y SEIS)'
+          '77 (SETENTA Y SIETE)'
+          '78 (SETENTA Y OCHO)'
+          '79 (SETENTA Y NUEVE)'
+          '80 (OCHENTA)'
+          '81 (OCHENTA Y UNO)'
+          '82 (OCHENTA Y DOS)'
+          '83 (OCHENTA Y TRES)'
+          '84 (OCHENTA Y CUATRO)'
+          '85 (OCHENTA Y CINCO)'
+          '86 (OCHENTA Y SEIS)'
+          '87 (OCHENTA Y SISTE)'
+          '88 (OCHENTA Y OCHO)'
+          '89 (OCHENTA Y NUEVE)'
+          '90 (NOVENTA)'
+          '91 (NOVENTA Y UNO)'
+          '92 (NOVENTA Y DOS)'
+          '93 (NOVENTA Y TRES)'
+          '94 (NOVENTA Y CUATRO)'
+          '95 (NOVENTA Y CINCO)'
+          '96 (NOVENTA Y SEIS)'
+          '97 (NOVENTA Y SIETE)'
+          '98 (NOVENTA Y OCHO)'
+          '99 (NOVENTA Y NUEVE)'
+          '100 (CIEN)'
+          '101 (CIENTO UNO)'
+          '102 (CIENTO DOS)'
+          '103 (CIENTO TRES)'
+          '104 (CIENTO CUATRO)'
+          '105 (CIENTO CINCO)'
+          '106 (CIENTO SEIS)'
+          '107 (CIENTO SIETE)'
+          '108 (CIENTO OCHO)'
+          '109 (CIENTO NUEVE)'
+          '110 (CIENTO DIEZ)'
+          '111 (CIENTO ONCE)'
+          '112 (CIENTO DOCE)'
+          '113 (CIENTO TRECE)'
+          '114 (CIENTO CATORCE)'
+          '115 (CIENTO QUINCE)'
+          '116 (CIENTO DIEZ Y SEIS)'
+          '117 (CIENTO DIEZ Y SIETE)'
+          '118 (CIENTO DIEZ Y OCHO)'
+          '119 (CIENTO DIEZ Y NUEVE)'
+          '120 (CIENTO VEINTE)'
+          '121 (CIENTO VEINTE Y UNO)'
+          '122 (CIENTO VEINE Y DOS)'
+          '123 (CIENTO VEINTE Y TRES)'
+          '124 (CIENTO VEINTE Y CUATRO)'
+          '125 (CIENTO VEINTE Y CINCO)'
+          '126 (CIENTO VEINTE Y SEIS)'
+          '127 (CIENTO VEITE Y SIETE)'
+          '128 (CIENTO VEINTE Y OCHO)'
+          '129 (CIENTO VEINTE Y NUEVE)'
+          '130 (CIENTO TREINTE)'
+          '131 (CIENTO TREITA Y UNO)'
+          '132 (CIENTO TREINTA Y DOS)'
+          '133 (CIENTO TREINTA Y TRES)'
+          '134 (CIENTO TREINTA Y CUATRO)'
+          '135 (CIENTO TREINTA Y CINCO)'
+          '136 (CIENTO TREINTA Y SEIS)'
+          '137 (CIENTO TREINTA Y SIETE)'
+          '138 (CIENTO TREINTA Y OCHO)'
+          '139 (CIENTO TREINTA Y NUEVE)'
+          '140 (CIENTO CUARENTA)'
+          '141 (CIENTO CUARENTA Y UNO)'
+          '142 (CIENTO CUARENTA Y DOS)'
+          '143 (CIENTO CUARENTA Y TRES)'
+          '144 (CIENTO CUARENTA Y CUATRO)'
+          '145 (CIENTO CUARENTA Y CINCO)'
+          '146 (CIENTO CUARENTA Y SEIS)'
+          '147 (CIENTO CUARENTA Y SIETE)'
+          '148 (CIENTO CUARENTA Y OCHO)'
+          '149 (CIENTO CUARENTA Y NUEVE)'
+          '150 (CIENTO CINCUENTA)')
+      end
+    end
+    object Panel5: TPanel
+      Left = 8
+      Top = 289
+      Width = 337
+      Height = 84
+      BorderStyle = bsSingle
+      TabOrder = 5
+      object Label13: TLabel
+        Left = 12
+        Top = 10
+        Width = 65
+        Height = 13
+        Caption = 'PRESIDENTE:'
+      end
+      object Label14: TLabel
+        Left = 12
+        Top = 33
+        Width = 58
+        Height = 13
+        Caption = 'TESORERO:'
+      end
+      object Label15: TLabel
+        Left = 10
+        Top = 56
+        Width = 64
+        Height = 13
+        Caption = 'SECRETARIO'
+      end
+      object Edit11: TEdit
+        Left = 80
+        Top = 7
+        Width = 242
+        Height = 21
+        TabOrder = 0
+        Text = 'ING. JUAN MANUEL ESTRADA MENDINA'
+      end
+      object Edit12: TEdit
+        Left = 81
+        Top = 30
+        Width = 241
+        Height = 21
+        TabOrder = 1
+        Text = 'C.P EMILIO GUILLEN PEREZ'
+      end
+      object Edit13: TEdit
+        Left = 80
+        Top = 53
+        Width = 242
+        Height = 21
+        TabOrder = 2
+        Text = 'DR. DANIEL VAZQUEZ ZAVALA'
+      end
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 412
+    Width = 546
+    Height = 19
+    Panels = <>
+  end
+  object frxReport1: TfrxReport
+    Version = '4.13.2'
+    DotMatrixReport = False
+    IniFile = '\Software\Fast Reports'
+    PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
+    PreviewOptions.Zoom = 1.000000000000000000
+    PrintOptions.Printer = 'Default'
+    PrintOptions.PrintOnSheet = 0
+    ReportOptions.CreateDate = 42373.533559502310000000
+    ReportOptions.LastChange = 42373.533559502310000000
+    ScriptLanguage = 'PascalScript'
+    ScriptText.Strings = (
+      'begin'
+      ''
+      'end.')
+    Left = 393
+    Top = 152
+    Datasets = <>
+    Variables = <>
+    Style = <>
+    object Data: TfrxDataPage
+      Height = 1000.000000000000000000
+      Width = 1000.000000000000000000
+    end
+    object Page1: TfrxReportPage
+      PaperWidth = 215.900000000000000000
+      PaperHeight = 279.400000000000000000
+      PaperSize = 1
+      LeftMargin = 10.000000000000000000
+      RightMargin = 10.000000000000000000
+      TopMargin = 10.000000000000000000
+      BottomMargin = 10.000000000000000000
+      object ReportTitle1: TfrxReportTitle
+        Height = 952.441560000000000000
+        Top = 18.897650000000000000
+        Width = 740.409927000000000000
+        object Memo1: TfrxMemoView
+          Left = 366.614410000000000000
+          Top = 359.496290000000000000
+          Width = 204.094620000000000000
+          Height = 22.677180000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[sepulcro]')
+        end
+        object Memo2: TfrxMemoView
+          Left = 79.370130000000000000
+          Top = 383.732530000000000000
+          Width = 631.181510000000000000
+          Height = 22.677180000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[fallecido]')
+        end
+        object Memo3: TfrxMemoView
+          Left = 200.315090000000000000
+          Top = 404.189240000000000000
+          Width = 510.236550000000000000
+          Height = 26.456710000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[solicitante]')
+        end
+        object Memo4: TfrxMemoView
+          Left = 79.370130000000000000
+          Top = 405.189240000000000000
+          Width = 120.944960000000000000
+          Height = 18.897650000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            'A SOLICITUD DE ')
+        end
+        object Memo5: TfrxMemoView
+          Left = 223.653680000000000000
+          Top = 426.645950000000000000
+          Width = 423.307360000000000000
+          Height = 18.897650000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[panteon]')
+        end
+        object Memo6: TfrxMemoView
+          Left = 162.519790000000000000
+          Top = 445.984540000000000000
+          Width = 222.992270000000000000
+          Height = 22.677180000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[fila]')
+        end
+        object Memo7: TfrxMemoView
+          Left = 430.866420000000000000
+          Top = 445.984540000000000000
+          Width = 230.551330000000000000
+          Height = 26.456710000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[lote]')
+        end
+        object Memo8: TfrxMemoView
+          Left = 75.590600000000000000
+          Top = 467.220780000000000000
+          Width = 309.921460000000000000
+          Height = 22.677180000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[tipo]')
+        end
+        object Memo9: TfrxMemoView
+          Left = 408.189240000000000000
+          Top = 467.220780000000000000
+          Width = 207.874150000000000000
+          Height = 22.677180000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[seccion]')
+        end
+        object Memo10: TfrxMemoView
+          Left = 454.645950000000000000
+          Top = 505.236550000000000000
+          Width = 158.740260000000000000
+          Height = 22.677180000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[cantidad]')
+        end
+        object Memo11: TfrxMemoView
+          Left = 102.047310000000000000
+          Top = 521.575140000000000000
+          Width = 374.173470000000000000
+          Height = 30.236240000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[letra]')
+        end
+        object Memo12: TfrxMemoView
+          Left = 196.535560000000000000
+          Top = 551.811380000000000000
+          Width = 158.740260000000000000
+          Height = 26.456710000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[recibo]')
+        end
+        object Memo13: TfrxMemoView
+          Left = 415.748300000000000000
+          Top = 551.811380000000000000
+          Width = 238.110390000000000000
+          Height = 30.236240000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[fecharecibo]')
+        end
+        object Memo17: TfrxMemoView
+          Left = 52.913420000000000000
+          Top = 740.787880000000000000
+          Width = 325.039580000000000000
+          Height = 30.236240000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[presidente]')
+        end
+        object Memo18: TfrxMemoView
+          Left = 264.567100000000000000
+          Top = 862.173780000000000000
+          Width = 249.448980000000000000
+          Height = 30.236240000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[tesorero]')
+        end
+        object Memo19: TfrxMemoView
+          Left = 415.748300000000000000
+          Top = 744.567410000000000000
+          Width = 302.362400000000000000
+          Height = 26.456710000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[secretario]')
+        end
+        object Memo14: TfrxMemoView
+          Left = 415.748300000000000000
+          Top = 628.638220000000000000
+          Width = 71.811070000000000000
+          Height = 26.456710000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[diaexp1]')
+        end
+        object Memo15: TfrxMemoView
+          Left = 540.472790000000000000
+          Top = 628.638220000000000000
+          Width = 83.149660000000000000
+          Height = 26.456710000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[mesexp1]')
+        end
+        object Memo16: TfrxMemoView
+          Left = 676.535870000000000000
+          Top = 624.858690000000000000
+          Width = 75.590600000000000000
+          Height = 30.236240000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '[yearexp1]')
+        end
+        object Memo21: TfrxMemoView
+          Left = 91.929190000000000000
+          Top = 520.795610000000000000
+          Width = 18.897650000000000000
+          Height = 22.677180000000000000
+          ShowHint = False
+          Memo.UTF8W = (
+            '(')
+        end
+      end
+    end
+  end
+  object MainMenu1: TMainMenu
+    Left = 312
+    Top = 152
+    object Archivo1: TMenuItem
+      Caption = 'Archivo'
+      object Salir1: TMenuItem
+        Caption = 'Salir'
+        OnClick = Salir1Click
+      end
+    end
+    object Consultas1: TMenuItem
+      Caption = 'Consultas'
+      object Consultas2: TMenuItem
+        Caption = 'Consultas por Nombre del Fallecido'
+        OnClick = Consultas2Click
+      end
+    end
+    object Reportes1: TMenuItem
+      Caption = 'Reportes'
+    end
+    object Ayuda1: TMenuItem
+      Caption = 'Ayuda'
+    end
+  end
+end

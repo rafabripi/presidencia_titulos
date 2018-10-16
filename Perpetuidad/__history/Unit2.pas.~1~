@@ -1,0 +1,46 @@
+unit Unit2;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DBXMySQL, Data.FMTBcd, Data.DB,
+  Datasnap.Provider, Datasnap.DBClient, Data.SqlExpr;
+
+type
+  TDataModule1 = class(TDataModule)
+    SQLConnection1: TSQLConnection;
+    Tperpetuidad: TSQLTable;
+    Queryagregartitulo: TSQLQuery;
+    DataSource1: TDataSource;
+    ClientDataSet1: TClientDataSet;
+    DataSetProvider1: TDataSetProvider;
+    Tperpetuidadid_perpetuidad: TIntegerField;
+    Tperpetuidadnombre_fallecido: TStringField;
+    Tperpetuidadsolicitante: TStringField;
+    Tperpetuidadpanteon: TStringField;
+    Tperpetuidadno_recibo: TStringField;
+    Tperpetuidadcantidad_pagar: TFloatField;
+    Tperpetuidadfecha_recibo: TDateField;
+    Tperpetuidadfecha_titulo: TDateField;
+    Tperpetuidadsepulcro: TStringField;
+    Tperpetuidadfila: TStringField;
+    Tperpetuidadtipo: TStringField;
+    Tperpetuidadpresidente: TStringField;
+    Tperpetuidadsecretario: TStringField;
+    Tperpetuidadtesorero: TStringField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule1: TDataModule1;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,28 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Datos del Titulo de  Perpetuidad'
+  ClientHeight = 333
+  ClientWidth = 523
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 8
+    Top = 8
+    Width = 507
+    Height = 317
+    TabOrder = 0
+  end
+  object DataSource1: TDataSource
+    DataSet = DataModule1.ClientDataSet2
+    Left = 256
+    Top = 176
+  end
+end
