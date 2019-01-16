@@ -2365,7 +2365,7 @@ object Form1: TForm1
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 42373.533559502300000000
-    ReportOptions.LastChange = 43368.652929513890000000
+    ReportOptions.LastChange = 43481.626692638890000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -2394,8 +2394,8 @@ object Form1: TForm1
         Width = 740.409927000000000000
         object Memo1: TfrxMemoView
           Left = 351.496062990000000000
-          Top = 362.834645670000000000
-          Width = 283.464566929133900000
+          Top = 219.212598425196900000
+          Width = 283.464566930000000000
           Height = 22.677180000000000000
           ShowHint = False
           Memo.UTF8W = (
@@ -2403,7 +2403,7 @@ object Form1: TForm1
         end
         object Memo2: TfrxMemoView
           Left = 79.370130000000000000
-          Top = 385.511811023622000000
+          Top = 253.228346456692900000
           Width = 631.181510000000000000
           Height = 22.677180000000000000
           ShowHint = False
@@ -2412,7 +2412,7 @@ object Form1: TForm1
         end
         object Memo3: TfrxMemoView
           Left = 200.315090000000000000
-          Top = 404.409448818898000000
+          Top = 279.685039370078700000
           Width = 510.236550000000000000
           Height = 26.456710000000000000
           GroupIndex = 1
@@ -2422,7 +2422,7 @@ object Form1: TForm1
         end
         object Memo4: TfrxMemoView
           Left = 79.370130000000000000
-          Top = 404.409448818898000000
+          Top = 279.685039370078700000
           Width = 120.944960000000000000
           Height = 18.897650000000000000
           GroupIndex = 1
@@ -2432,7 +2432,7 @@ object Form1: TForm1
         end
         object Memo5: TfrxMemoView
           Left = 223.653680000000000000
-          Top = 427.086614173228000000
+          Top = 298.582677165354300000
           Width = 430.866141730000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -2441,7 +2441,7 @@ object Form1: TForm1
         end
         object Memo6: TfrxMemoView
           Left = 181.417322830000000000
-          Top = 445.984251968504000000
+          Top = 317.480314960629900000
           Width = 222.992270000000000000
           Height = 22.677180000000000000
           ShowHint = False
@@ -2450,7 +2450,7 @@ object Form1: TForm1
         end
         object Memo7: TfrxMemoView
           Left = 430.866420000000000000
-          Top = 445.984251968504000000
+          Top = 317.480314960629900000
           Width = 230.551330000000000000
           Height = 26.456710000000000000
           ShowHint = False
@@ -2459,7 +2459,7 @@ object Form1: TForm1
         end
         object Memo8: TfrxMemoView
           Left = 75.590600000000000000
-          Top = 464.881889760000000000
+          Top = 336.377952755905500000
           Width = 309.921460000000000000
           Height = 22.677180000000000000
           ShowHint = False
@@ -2468,7 +2468,7 @@ object Form1: TForm1
         end
         object Memo9: TfrxMemoView
           Left = 408.189240000000000000
-          Top = 464.881889760000000000
+          Top = 336.377952755905500000
           Width = 207.874150000000000000
           Height = 22.677180000000000000
           ShowHint = False
@@ -2476,8 +2476,8 @@ object Form1: TForm1
             '[seccion]')
         end
         object Memo10: TfrxMemoView
-          Left = 476.220472440945000000
-          Top = 502.677165350000000000
+          Left = 476.220472440000000000
+          Top = 374.173228346456700000
           Width = 158.740260000000000000
           Height = 22.677180000000000000
           ShowHint = False
@@ -2486,7 +2486,7 @@ object Form1: TForm1
         end
         object Memo11: TfrxMemoView
           Left = 102.047310000000000000
-          Top = 525.354330708661000000
+          Top = 396.850393700787400000
           Width = 374.173470000000000000
           Height = 30.236240000000000000
           ShowHint = False
@@ -2495,7 +2495,7 @@ object Form1: TForm1
         end
         object Memo12: TfrxMemoView
           Left = 215.433070870000000000
-          Top = 544.251968503937000000
+          Top = 415.748031500000000000
           Width = 158.740260000000000000
           Height = 26.456710000000000000
           GroupIndex = 2
@@ -2505,7 +2505,7 @@ object Form1: TForm1
         end
         object Memo13: TfrxMemoView
           Left = 415.748300000000000000
-          Top = 544.251968503937000000
+          Top = 415.748031500000000000
           Width = 238.110390000000000000
           Height = 30.236240000000000000
           GroupIndex = 2
@@ -2514,13 +2514,11 @@ object Form1: TForm1
             '[fecharecibo]')
         end
         object Memo17: TfrxMemoView
-          Left = 68.031496062992100000
+          Left = 68.031496060000000000
           Top = 755.905511810000000000
           Width = 325.039580000000000000
           Height = 30.236240000000000000
           ShowHint = False
-          Memo.UTF8W = (
-            '[presidente]')
         end
         object Memo18: TfrxMemoView
           Left = 268.346456690000000000
@@ -2528,8 +2526,6 @@ object Form1: TForm1
           Width = 249.448980000000000000
           Height = 30.236240000000000000
           ShowHint = False
-          Memo.UTF8W = (
-            '[tesorero]')
         end
         object Memo19: TfrxMemoView
           Left = 396.850393700000000000
@@ -2537,12 +2533,10 @@ object Form1: TForm1
           Width = 302.362400000000000000
           Height = 26.456710000000000000
           ShowHint = False
-          Memo.UTF8W = (
-            '[secretario]')
         end
         object Memo14: TfrxMemoView
           Left = 415.748300000000000000
-          Top = 623.622047240000000000
+          Top = 510.236220472440900000
           Width = 71.811070000000000000
           Height = 26.456710000000000000
           ShowHint = False
@@ -2550,8 +2544,8 @@ object Form1: TForm1
             '[diaexp1]')
         end
         object Memo15: TfrxMemoView
-          Left = 514.015748031496000000
-          Top = 623.622047240000000000
+          Left = 514.015748030000000000
+          Top = 510.236220472440900000
           Width = 113.385900000000000000
           Height = 26.456710000000000000
           ShowHint = False
@@ -2559,8 +2553,8 @@ object Form1: TForm1
             '[mesexp1]')
         end
         object Memo16: TfrxMemoView
-          Left = 672.755905511811000000
-          Top = 623.622047240000000000
+          Left = 672.755905510000000000
+          Top = 510.236220472440900000
           Width = 75.590600000000000000
           Height = 30.236240000000000000
           ShowHint = False
@@ -2569,7 +2563,7 @@ object Form1: TForm1
         end
         object Memo21: TfrxMemoView
           Left = 91.929190000000000000
-          Top = 525.354330708661000000
+          Top = 396.850393700787400000
           Width = 18.897650000000000000
           Height = 22.677180000000000000
           ShowHint = False

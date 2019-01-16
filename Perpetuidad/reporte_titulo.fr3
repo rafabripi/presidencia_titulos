@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<TfrxReport Version="4.13.2" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="42373.5335595023" ReportOptions.Description.Text="" ReportOptions.LastChange="43368.6529295139" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403890103546F700398000844617461736574730100095661726961626C65730100055374796C650100">
+<TfrxReport Version="4.13.2" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="42373.5335595023" ReportOptions.Description.Text="" ReportOptions.LastChange="43481.6266926389" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403890103546F700398000844617461736574730100095661726961626C65730100055374796C650100">
   <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
   <TfrxReportPage Name="Page1" PaperWidth="215.9" PaperHeight="279.4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
     <TfrxReportTitle Name="ReportTitle1" Height="952.44156" Left="0" Top="18.89765" Width="740.409927">
-      <TfrxMemoView Name="Memo1" Left="351.49606299" Top="362.83464567" Width="283.464566929134" Height="22.67718" ShowHint="False" Text="[sepulcro]"/>
-      <TfrxMemoView Name="Memo2" Left="79.37013" Top="385.511811023622" Width="631.18151" Height="22.67718" ShowHint="False" Text="[fallecido]"/>
-      <TfrxMemoView Name="Memo3" Left="200.31509" Top="404.409448818898" Width="510.23655" Height="26.45671" GroupIndex="1" ShowHint="False" Text="[solicitante]"/>
-      <TfrxMemoView Name="Memo4" Left="79.37013" Top="404.409448818898" Width="120.94496" Height="18.89765" GroupIndex="1" ShowHint="False" Text="A SOLICITUD DE "/>
-      <TfrxMemoView Name="Memo5" Left="223.65368" Top="427.086614173228" Width="430.86614173" Height="18.89765" ShowHint="False" Text="[panteon]"/>
-      <TfrxMemoView Name="Memo6" Left="181.41732283" Top="445.984251968504" Width="222.99227" Height="22.67718" ShowHint="False" Text="[fila]"/>
-      <TfrxMemoView Name="Memo7" Left="430.86642" Top="445.984251968504" Width="230.55133" Height="26.45671" ShowHint="False" Text="[lote]"/>
-      <TfrxMemoView Name="Memo8" Left="75.5906" Top="464.88188976" Width="309.92146" Height="22.67718" ShowHint="False" Text="[tipo]"/>
-      <TfrxMemoView Name="Memo9" Left="408.18924" Top="464.88188976" Width="207.87415" Height="22.67718" ShowHint="False" Text="[seccion]"/>
-      <TfrxMemoView Name="Memo10" Left="476.220472440945" Top="502.67716535" Width="158.74026" Height="22.67718" ShowHint="False" Text="[cantidad]"/>
-      <TfrxMemoView Name="Memo11" Left="102.04731" Top="525.354330708661" Width="374.17347" Height="30.23624" ShowHint="False" Text="[letra]"/>
-      <TfrxMemoView Name="Memo12" Left="215.43307087" Top="544.251968503937" Width="158.74026" Height="26.45671" GroupIndex="2" ShowHint="False" Text="[recibo]"/>
-      <TfrxMemoView Name="Memo13" Left="415.7483" Top="544.251968503937" Width="238.11039" Height="30.23624" GroupIndex="2" ShowHint="False" Text="[fecharecibo]"/>
-      <TfrxMemoView Name="Memo17" Left="68.0314960629921" Top="755.90551181" Width="325.03958" Height="30.23624" ShowHint="False" Text="[presidente]"/>
-      <TfrxMemoView Name="Memo18" Left="268.34645669" Top="869.29133858" Width="249.44898" Height="30.23624" ShowHint="False" Text="[tesorero]"/>
-      <TfrxMemoView Name="Memo19" Left="396.8503937" Top="755.906" Width="302.3624" Height="26.45671" ShowHint="False" Text="[secretario]"/>
-      <TfrxMemoView Name="Memo14" Left="415.7483" Top="623.62204724" Width="71.81107" Height="26.45671" ShowHint="False" Text="[diaexp1]"/>
-      <TfrxMemoView Name="Memo15" Left="514.015748031496" Top="623.62204724" Width="113.3859" Height="26.45671" ShowHint="False" Text="[mesexp1]"/>
-      <TfrxMemoView Name="Memo16" Left="672.755905511811" Top="623.62204724" Width="75.5906" Height="30.23624" ShowHint="False" Text="[yearexp1]"/>
-      <TfrxMemoView Name="Memo21" Left="91.92919" Top="525.354330708661" Width="18.89765" Height="22.67718" ShowHint="False" Text="("/>
+      <TfrxMemoView Name="Memo1" Left="351.49606299" Top="219.212598425197" Width="283.46456693" Height="22.67718" ShowHint="False" Text="[sepulcro]"/>
+      <TfrxMemoView Name="Memo2" Left="79.37013" Top="253.228346456693" Width="631.18151" Height="22.67718" ShowHint="False" Text="[fallecido]"/>
+      <TfrxMemoView Name="Memo3" Left="200.31509" Top="279.685039370079" Width="510.23655" Height="26.45671" GroupIndex="1" ShowHint="False" Text="[solicitante]"/>
+      <TfrxMemoView Name="Memo4" Left="79.37013" Top="279.685039370079" Width="120.94496" Height="18.89765" GroupIndex="1" ShowHint="False" Text="A SOLICITUD DE "/>
+      <TfrxMemoView Name="Memo5" Left="223.65368" Top="298.582677165354" Width="430.86614173" Height="18.89765" ShowHint="False" Text="[panteon]"/>
+      <TfrxMemoView Name="Memo6" Left="181.41732283" Top="317.48031496063" Width="222.99227" Height="22.67718" ShowHint="False" Text="[fila]"/>
+      <TfrxMemoView Name="Memo7" Left="430.86642" Top="317.48031496063" Width="230.55133" Height="26.45671" ShowHint="False" Text="[lote]"/>
+      <TfrxMemoView Name="Memo8" Left="75.5906" Top="336.377952755906" Width="309.92146" Height="22.67718" ShowHint="False" Text="[tipo]"/>
+      <TfrxMemoView Name="Memo9" Left="408.18924" Top="336.377952755906" Width="207.87415" Height="22.67718" ShowHint="False" Text="[seccion]"/>
+      <TfrxMemoView Name="Memo10" Left="476.22047244" Top="374.173228346457" Width="158.74026" Height="22.67718" ShowHint="False" Text="[cantidad]"/>
+      <TfrxMemoView Name="Memo11" Left="102.04731" Top="396.850393700787" Width="374.17347" Height="30.23624" ShowHint="False" Text="[letra]"/>
+      <TfrxMemoView Name="Memo12" Left="215.43307087" Top="415.7480315" Width="158.74026" Height="26.45671" GroupIndex="2" ShowHint="False" Text="[recibo]"/>
+      <TfrxMemoView Name="Memo13" Left="415.7483" Top="415.7480315" Width="238.11039" Height="30.23624" GroupIndex="2" ShowHint="False" Text="[fecharecibo]"/>
+      <TfrxMemoView Name="Memo17" Left="68.03149606" Top="755.90551181" Width="325.03958" Height="30.23624" ShowHint="False" Text=""/>
+      <TfrxMemoView Name="Memo18" Left="268.34645669" Top="869.29133858" Width="249.44898" Height="30.23624" ShowHint="False" Text=""/>
+      <TfrxMemoView Name="Memo19" Left="396.8503937" Top="755.906" Width="302.3624" Height="26.45671" ShowHint="False" Text=""/>
+      <TfrxMemoView Name="Memo14" Left="415.7483" Top="510.236220472441" Width="71.81107" Height="26.45671" ShowHint="False" Text="[diaexp1]"/>
+      <TfrxMemoView Name="Memo15" Left="514.01574803" Top="510.236220472441" Width="113.3859" Height="26.45671" ShowHint="False" Text="[mesexp1]"/>
+      <TfrxMemoView Name="Memo16" Left="672.75590551" Top="510.236220472441" Width="75.5906" Height="30.23624" ShowHint="False" Text="[yearexp1]"/>
+      <TfrxMemoView Name="Memo21" Left="91.92919" Top="396.850393700787" Width="18.89765" Height="22.67718" ShowHint="False" Text="("/>
     </TfrxReportTitle>
   </TfrxReportPage>
 </TfrxReport>
