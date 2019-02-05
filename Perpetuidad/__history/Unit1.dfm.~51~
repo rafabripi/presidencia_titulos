@@ -2365,7 +2365,7 @@ object Form1: TForm1
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 42373.533559502300000000
-    ReportOptions.LastChange = 43501.596365856480000000
+    ReportOptions.LastChange = 43481.626692638890000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -2485,9 +2485,9 @@ object Form1: TForm1
             '[cantidad]')
         end
         object Memo11: TfrxMemoView
-          Left = 64.251968500000000000
-          Top = 396.850393700000000000
-          Width = 646.299630000000000000
+          Left = 102.047310000000000000
+          Top = 396.850393700787400000
+          Width = 374.173470000000000000
           Height = 30.236240000000000000
           ShowHint = False
           Memo.UTF8W = (
@@ -2562,8 +2562,8 @@ object Form1: TForm1
             '[yearexp1]')
         end
         object Memo21: TfrxMemoView
-          Left = 52.913385826771650000
-          Top = 396.850393700000000000
+          Left = 91.929190000000000000
+          Top = 396.850393700787400000
           Width = 18.897650000000000000
           Height = 22.677180000000000000
           ShowHint = False
